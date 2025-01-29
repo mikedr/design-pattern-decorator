@@ -18,3 +18,10 @@ Requisitos funcionales
 - Implementa al menos dos clases de reportes base (PlainTextReport y HTMLReport).
 - Implementa al menos tres decoradores (HeaderDecorator, FooterDecorator, EncryptionDecorator).
 - Simula la creación de un reporte con varios decoradores y muestra el contenido final.
+  
+Ejemplo de uso
+Si un usuario genera:
+
+Un reporte HTML con un encabezado y cifrado, el sistema debe imprimir algo como: 
+
+Contenido: (Cifrado) <h1>Report Title</h1> This is the report content.
