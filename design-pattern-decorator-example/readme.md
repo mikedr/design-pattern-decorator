@@ -10,7 +10,11 @@ Estás desarrollando un sistema de generación de reportes dinámicos para una e
 El diseño debe permitir:
 
 - Generar reportes base en diferentes formatos (Texto, HTML).
-
 - Agregar múltiples decoradores al reporte base en cualquier combinación (por ejemplo, encabezado + cifrado).
-
 - Extender el sistema fácilmente para agregar nuevos formatos o decoradores en el futuro.
+
+Requisitos funcionales
+- Crea una clase base o interfaz Report con el método String generateContent().
+- Implementa al menos dos clases de reportes base (PlainTextReport y HTMLReport).
+- Implementa al menos tres decoradores (HeaderDecorator, FooterDecorator, EncryptionDecorator).
+- Simula la creación de un reporte con varios decoradores y muestra el contenido final.
