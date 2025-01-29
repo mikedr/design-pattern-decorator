@@ -24,4 +24,7 @@ Si un usuario genera:
 
 Un reporte HTML con un encabezado y cifrado, el sistema debe imprimir algo como: 
 
-Contenido: (Cifrado) <h1>Report Title</h1> This is the report content.
+Contenido: 
+```
+(Cifrado) <h1>Report Title</h1> This is the report content.
+```
